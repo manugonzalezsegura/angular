@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Productos
+      <app-button-bar></app-button-bar>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Sección de información del usuario -->
+  
+
+  <!-- Botones para funcionalidades clave -->
+  <ion-list>
+    <ion-item button (click)="goToUploadProduct()">
+      <ion-icon name="cloud-upload" slot="start"></ion-icon>
+      Subir Producto
+    </ion-item>
+    <ion-item button (click)="goToTakePhoto()">
+      <ion-icon name="camera" slot="start"></ion-icon>
+      Tomar Foto
+    </ion-item>
+    <ion-item button (click)="goToSales()">
+      <ion-icon name="cart" slot="start"></ion-icon>
+      Ver Mis Ventas
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
+
+

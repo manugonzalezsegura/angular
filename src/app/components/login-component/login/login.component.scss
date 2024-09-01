@@ -1,0 +1,26 @@
+/* src/app/components/login-component/login/login.component.scss */
+:host {
+    display: block;
+    --max-width: 400px;  /* Ajusta el ancho máximo */
+    --max-height: 500px; /* Ajusta la altura máxima */
+  }
+  
+  ion-content {
+    max-width: var(--max-width);
+    max-height: var(--max-height);
+    margin: auto; /* Centra el contenido */
+    padding: 16px;
+  }
+  
+  ion-header {
+    --background: #f8f8f8; /* Ajusta el color de fondo del header si es necesario */
+  }
+  .login-container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: Añade una sombra para darle un efecto de profundidad */
+    background-color: #fff; /* Opcional: Cambia el color de fondo */
+    border-radius: 8px; /* Opcional: Añade bordes redondeados */
+  }  
